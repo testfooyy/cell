@@ -9,7 +9,6 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var fooLabel: UILabel!
     
     
-    
     func testCell(test: String, list: String) {
         testLabel.text = test
         let session = URLSession(configuration: URLSessionConfiguration.default, delegate: nil, delegateQueue: OperationQueue.main)

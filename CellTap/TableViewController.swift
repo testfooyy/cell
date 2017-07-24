@@ -27,7 +27,6 @@ class TableViewController: UITableViewController {
     }
     
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if self.myItems[indexPath.row] == "TEST1" {
